@@ -106,6 +106,20 @@
 </div>
 
 <script>
+  function mostrarMensagem(texto, tipo) {
+  let div = document.getElementById("mensagem");
+
+  div.innerHTML = `
+    <div class="alert alert-${tipo} mt-2" role="alert">
+      ${texto}
+    </div>
+  `;
+
+  setTimeout(() => {
+    div.innerHTML = "";
+  }, 3000);
+}
+
 function toggleSenha() {
   let input = document.getElementById("senha");
   let icone = document.getElementById("icone");
@@ -134,7 +148,7 @@ function entrar() {
   let temLetra = /[a-zA-Z]/.test(senha);
 
   if (senha.length < 8 || !temNumero || !temLetra) {
-    alert("Senha inválida!");
+    mostrarMensagem("Senha inválida!", "danger");
     return;
   }
 
