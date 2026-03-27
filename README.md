@@ -1,5 +1,5 @@
 # ⚽ AtlheMap — Find your Goal
-<p align="center"> <img src="AthleMap/a.png" alt="AtlheMap Logo" width="200"/> </p>
+<p align="center"> <img src="AthleMap/AtlheMap/z.png" alt="AtlheMap Logo" width="200"/> </p>
 
 O AtlheMap é uma plataforma que conecta pessoas ao esporte por meio da localização. Nosso objetivo é facilitar o encontro entre jogadores, espaços esportivos e oportunidades de prática, promovendo uma comunidade ativa e acessível.
 
